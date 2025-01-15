@@ -1,17 +1,14 @@
 # Real State Market Analysis for Tourist Rentals
 
-This analysis project is part of a course in data science. The exercise simulates that we belong to a real estate company, and we carry out an analysis of tourist apartments with the objective of renting them out as tourist apartments.
+This analysis project is part of a course in data science. The exercise simulates that we belong to a real estate company, and we carry out an analysis of tourist apartments in Madrid with the objective of renting them out as tourist apartments.
 
 Disclaimer: this project was initially done in Spanish, and later translated the important prose. It's a bit sloppy, next time I'll do it in English from the beggining.
 
 ### Overview of the project
 
 
-
-
-
-
-
+We gathered the main data on tourism apartments from airbnb ([here](https://insideairbnb.com/get-the-data/)), wich came in different csv files. We condensed the useful data into a dataframe, then cleaned and analized it complementing with more data for the pricing. 
+After that, I made it again but for the Valencia city.
 
 ##### Conclusions of the analysis
 
@@ -22,12 +19,21 @@ Disclaimer: this project was initially done in Spanish, and later translated the
 
 [Results notebook](https://github.com/adrianriverof/Real-State-Market-Analysis-for-Tourist-Rentals/blob/main/Madrid/6-%20Results.ipynb)
 
+<img src="https://github.com/user-attachments/assets/0c9801df-364e-4ffb-bce7-909a766ff745" alt="Districts of Madrid price vs rent" width="600" height="400">
+
 
 ##### Challenges faced
 
-
+Some data had to be scraped from a webpage, using a chrome extension. The Valencia case data was more tricky to work around, because there was less uniformity in the district organization, and I had to manually introduce some of the data. There was some missing data that could be imputed in the data cleansing phase.
 
 ##### Interesting techniques
 
-##### What's next?
+- I created a database using SQLite and acceded with sqalchemy
+- I used folium to easily provide map visualizations
+- I created a subcube to easily access some key data during the analysis
+
+<img src="https://github.com/user-attachments/assets/235a738c-5872-4890-8885-ee23869c8471" alt="Prices in a district of Valencia" width="400" height="250">
+
+
+
 
