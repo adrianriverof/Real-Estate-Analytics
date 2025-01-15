@@ -4,10 +4,11 @@ This analysis project is part of a course in data science. The exercise simulate
 
 Disclaimer: this project was initially done in Spanish, and later translated the important prose. It's a bit sloppy, next time I'll do it in English from the beggining.
 
+
 ### Overview of the project
 
 
-We gathered the main data on tourism apartments from airbnb ([here](https://insideairbnb.com/get-the-data/)), wich came in different csv files. We condensed the useful data into a dataframe, then cleaned and analized it complementing with more data for the pricing. 
+We gathered the main data on tourism apartments from airbnb (not included in this repo, you can get it [here](https://insideairbnb.com/get-the-data/)), wich came in different csv files. We condensed the useful data into a dataframe, then cleaned and analized it complementing with more data for the pricing. 
 After that, I made it again but for the Valencia city.
 
 ##### Conclusions of the analysis
