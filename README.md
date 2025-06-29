@@ -4,7 +4,7 @@
 
 The purpose of this project is to analize the market data on tourism rentals to see what insights can we obtain from it.
 
-### Process
+##### Process
 
 The main data on tourism apartments from Madrid and Valencia was gathered from airbnb (you can get it [here](https://insideairbnb.com/get-the-data/)), wich came in different csv files.
 The useful data was processed into dataframes, then cleaned and complemented with more external data for the pricing. 
