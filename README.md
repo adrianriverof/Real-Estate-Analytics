@@ -2,7 +2,7 @@
 
 ### Overview of the project
 
-The purpose of this project is to analize the market data on tourism rentals to see what insights we can obtain from it.
+The purpose of this project is to analize the market data on tourism rentals to see what insights can we obtain from it.
 
 ### Process
 
