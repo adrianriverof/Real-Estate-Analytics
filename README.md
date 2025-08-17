@@ -1,4 +1,4 @@
-# Real Estate Analytics: Tourist Rentals in Madrid & Valencia
+# 🏡 Real Estate Analytics: Tourist Rentals in Madrid & Valencia
 
 ## Overview
 This project explores the short-term rental market (Airbnb) in Madrid and Valencia, aiming to uncover **profitable investment opportunities** and understand the key drivers of rental income.  
@@ -23,10 +23,10 @@ The analysis combines Airbnb listing data with external pricing information to e
 ---
 
 ## Key Insights
-- **10 neighborhoods** maximize cost-income ratio, segmented by type and quality.  
-- Optimal property type: **1-bedroom apartments for 3 guests**.  
-- Proximity to points of interest showed **low relevance** to ROI.  
-- Strong **market opportunity** around major sporting events in specific districts.  
+- 🔑 **10 neighborhoods** maximize cost-income ratio, segmented by type and quality.  
+- 🛏️ Optimal property type: **1-bedroom apartments for 3 guests**.  
+- 📍 Proximity to points of interest showed **low relevance** to ROI.  
+- ⚽ Strong **market opportunity** around major sporting events in specific districts.  
 
 <img src="https://github.com/user-attachments/assets/0c9801df-364e-4ffb-bce7-909a766ff745" alt="Districts of Madrid price vs rent" width="600" height="400">
 
