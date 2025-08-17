@@ -48,6 +48,6 @@ The analysis combines Airbnb listing data with external pricing information to e
 ---
 
 ## Results
-📓 [Full Results Notebook]([link-to-notebook](https://github.com/adrianriverof/Real-State-Market-Analysis-for-Tourist-Rentals/blob/main/Madrid/6-%20Results.ipynb))
+[Full Results notebook](https://github.com/adrianriverof/Real-State-Market-Analysis-for-Tourist-Rentals/blob/main/Madrid/6-%20Results.ipynb)
 
 <img src="https://github.com/user-attachments/assets/235a738c-5872-4890-8885-ee23869c8471" alt="Prices in a district of Valencia" width="400" height="250">
