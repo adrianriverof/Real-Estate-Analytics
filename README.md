@@ -1,40 +1,53 @@
-# Real State Market Analysis for Tourist Rentals
+# Real Estate Analytics: Tourist Rentals in Madrid & Valencia
 
-### Overview of the project
+## Overview
+This project explores the short-term rental market (Airbnb) in Madrid and Valencia, aiming to uncover **profitable investment opportunities** and understand the key drivers of rental income.  
+The analysis combines Airbnb listing data with external pricing information to estimate the **earnings potential of properties**, based on acquisition cost, occupancy ratios, and guest capacity.
 
-The purpose of this project is to analize the market data on tourism rentals to see what insights can we obtain from it.
+---
 
-##### Process
+## Process
+1. **Data collection**  
+   - Airbnb listings datasets for Madrid and Valencia (CSV).  
+   - External pricing data scraped from real estate websites.  
 
-The main data on tourism apartments from Madrid and Valencia was gathered from airbnb (you can get it [here](https://insideairbnb.com/get-the-data/)), wich came in different csv files.
-The useful data was processed into dataframes, then cleaned and complemented with more external data for the pricing. 
-The analysis consisted in estimating the earn potential of each apartment, based on the estimated cost of the apartment, the quantity of guests and occupance ratios.
+2. **Data preparation**  
+   - Cleaning, handling missing values, manual adjustments for district differences.  
+   - Integration of multiple sources into a **SQLite database** (accessed with SQLAlchemy).  
 
-##### Conclusions of the analysis
+3. **Analysis**  
+   - Calculation of potential ROI for each apartment.  
+   - Segmentation by district, property type, and guest capacity.  
+   - Visualization of spatial patterns using **folium** maps.  
 
-- there are 10 neighborhoods that can maximize the cost-income ratio, segmented by type and quality.
-- the optimal option is to look for properties with one room that can accommodate 3 guests.
-- for the scope of this analysis, it seems that proximity to points of interest is not very relevant.
-- There's a market opportunity on renting properties in specific neiborhoods for moments of high sporting interest.
+---
 
-[Results notebook](https://github.com/adrianriverof/Real-State-Market-Analysis-for-Tourist-Rentals/blob/main/Madrid/6-%20Results.ipynb)
+## Key Insights
+- **10 neighborhoods** maximize cost-income ratio, segmented by type and quality.  
+- Optimal property type: **1-bedroom apartments for 3 guests**.  
+- Proximity to points of interest showed **low relevance** to ROI.  
+- Strong **market opportunity** around major sporting events in specific districts.  
 
 <img src="https://github.com/user-attachments/assets/0c9801df-364e-4ffb-bce7-909a766ff745" alt="Districts of Madrid price vs rent" width="600" height="400">
 
+---
 
-##### Challenges faced
+## Challenges
+- **Data scraping**: some data had to be scraped manually with a Chrome extension.  
+- **Non-uniform districts**: Valencia’s district structure required additional manual adjustments.  
+- **Data quality**: missing values handled through imputation.  
 
-Some data had to be scraped from a webpage, using a chrome extension. The Valencia case data was more tricky to work around, because there was less uniformity in the district organization, and some data had to be manually introduced. There was some missing data that could be imputed in the data cleansing phase.
+---
 
-##### Techniques and Technology
+## Tech Stack
+- **Python**: pandas, numpy, matplotlib, seaborn  
+- **Database**: SQLite + SQLAlchemy  
+- **Visualization**: folium (maps), matplotlib/seaborn (plots)  
+- **Other**: creation of a subcube for fast querying during analysis  
 
-- libraries: numpy, pandas, matplotlib, seaborn
-- a database was created using SQLite and acceded with sqalchemy
-- folium was used to easily provide map visualizations
-- a subcube was created to easily access some key data during the analysis
+---
+
+## Results
+📓 [Full Results Notebook]([link-to-notebook](https://github.com/adrianriverof/Real-State-Market-Analysis-for-Tourist-Rentals/blob/main/Madrid/6-%20Results.ipynb))
 
 <img src="https://github.com/user-attachments/assets/235a738c-5872-4890-8885-ee23869c8471" alt="Prices in a district of Valencia" width="400" height="250">
-
-
-
-
