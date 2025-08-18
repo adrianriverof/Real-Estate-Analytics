@@ -28,7 +28,9 @@ The analysis combines Airbnb listing data with external pricing information to e
 - 📍 Proximity to points of interest showed **low relevance** to ROI.  
 - ⚽ Strong **market opportunity** around major sporting events in specific districts.  
 
-<img src="https://github.com/user-attachments/assets/0c9801df-364e-4ffb-bce7-909a766ff745" alt="Districts of Madrid price vs rent" width="600" height="400">
+<p align="center">
+  <img width="600" height="400" src="https://github.com/user-attachments/assets/0c9801df-364e-4ffb-bce7-909a766ff745">
+</p>
 
 ---
 
@@ -40,14 +42,17 @@ The analysis combines Airbnb listing data with external pricing information to e
 ---
 
 ## Tech Stack
-- **Python**: pandas, numpy, matplotlib, seaborn  
+<img align="right" width="400" height="400" src="https://github.com/user-attachments/assets/235a738c-5872-4890-8885-ee23869c8471">
+
+- **Python**: pandas, numpy, matplotlib, seaborn
 - **Database**: SQLite + SQLAlchemy  
 - **Visualization**: folium (maps), matplotlib/seaborn (plots)  
 - **Other**: creation of a subcube for fast querying during analysis  
 
 ---
 
-## Results
-[Full Results notebook](https://github.com/adrianriverof/Real-State-Market-Analysis-for-Tourist-Rentals/blob/main/Madrid/6-%20Results.ipynb)
+### [Results notebook](https://github.com/adrianriverof/Real-State-Market-Analysis-for-Tourist-Rentals/blob/main/Madrid/6-%20Results.ipynb)
 
-<img src="https://github.com/user-attachments/assets/235a738c-5872-4890-8885-ee23869c8471" alt="Prices in a district of Valencia" width="400" height="250">
+
+
+
